@@ -1,0 +1,14 @@
+name: FluxTrader
+version: 1.0.0
+main: noramu.fluxtrader.FluxTrader
+description: Traveling Trader System for Spigot/Paper
+authors: [noramu]
+api-version: 1.20
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+
+commands:
+  fluxtrader:
+    description: FluxTrader komutları
+    usage: /fluxtrader <reload|info|next|gui>
+    aliases: [ft]

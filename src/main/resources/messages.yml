@@ -1,0 +1,36 @@
+# FluxTrader - Mesajlar (Oyuncu Mesajları)
+
+messages:
+  # Satın alma başarısı
+  purchase-success: "&a✓ satin alindi: &e%amount%x %item%"
+  purchase-paid: "&7odenen: &e%price% %currency%"
+  
+  # Hata mesajları
+  item-unavailable: "&c✗ %reason%"
+  daily-limit-reached: "&c✗ bu urnun gunluk limiti doldu!"
+  drop-chance-failed: "&c✗ bu sefer urun dusmedi! (&e%chance%&c)"
+  insufficient-vault-money: "&c✗ yeterli para yok!"
+  vault-money-details: "&7gerekli: &e%needed% %currency% &7mevcut: &e%balance%"
+  insufficient-inventory-currency: "&c✗ yeterli %currency% yok!"
+  inventory-currency-details: "&7gerekli: &e%needed% %currency% &7mevcut: &e%available%"
+  
+  # Ürün lore
+  item-price: "&6💰 fiyat: &e%price% %currency%"
+  item-amount: "&6📦 miktar: &e%min%-%max%"
+  item-chance: "&6🎲 sans: &e%chance%"
+  item-daily-limit: "&6📊 gunluk limit: &e%remaining%/%total%"
+  
+  # Duyurular
+  refresh-message: "&6&l[Tüccar] &r&eurünler yenilendi! &7/fluxtrader gui"
+  countdown-message: "&6&l[Tüccar] &r&etüccar &e%time% &esonra yenileniyor!"
+  
+  # Komut mesajları
+  command-usage: "&c/fluxtrader <reload|info|next|gui>"
+  permission-denied: "&cyetkiniz!"
+  player-only: "&csadece oyuncu komutu!"
+  config-reloaded: "&akonfigürasyon ve gui yenilendi!"
+  refresh-forced: "&ayenilenme zorla tetiklendi!"
+  plugin-info-header: "&6&l=== tüccar bilgisi ==="
+  plugin-version: "&7surum: &e%version%"
+  plugin-total-items: "&7toplam urun: &e%items%"
+  plugin-refresh-mode: "&7yenilenme modu: &e%mode%"

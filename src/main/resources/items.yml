@@ -1,0 +1,480 @@
+# FluxTrader - Product Configuration
+# Currency Types: VAULT, GOLD, DIAMOND, EMERALD
+# Time-based items can be configured with available-hours, available-days, available-months
+
+items:
+  item_1:
+    id: "item_1"
+    material: "DIAMOND"
+    display-name: "&bDiamond"
+    lore:
+      - "&7A rare treasure"
+      - "&7Very valuable"
+    chance: 100
+    min-amount: 1
+    max-amount: 3
+    price: 50
+    currency-type: "DIAMOND"
+    daily-limit: 10
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_2:
+    id: "item_2"
+    material: "EMERALD"
+    display-name: "&aEmerald"
+    lore:
+      - "&7Green and valuable"
+      - "&7Loved by traders"
+    chance: 80
+    min-amount: 2
+    max-amount: 5
+    price: 50
+    currency-type: "EMERALD"
+    daily-limit: 15
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_3:
+    id: "item_3"
+    material: "GOLD_INGOT"
+    display-name: "&6Gold Bar"
+    lore:
+      - "&7Shiny and valuable"
+      - "&7For decoration"
+    chance: 90
+    min-amount: 3
+    max-amount: 8
+    price: 50
+    currency-type: "GOLD"
+    daily-limit: 20
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_4:
+    id: "item_4"
+    material: "ENCHANTED_GOLDEN_APPLE"
+    display-name: "&6✨ Enchanted Apple"
+    lore:
+      - "&7Legendary item"
+      - "&7Very rare and powerful"
+    chance: 30
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 2
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_5:
+    id: "item_5"
+    material: "NETHERITE_INGOT"
+    display-name: "&8⚔ Netherite Bar"
+    lore:
+      - "&7Very rare and powerful"
+      - "&7Most valuable item"
+    chance: 20
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 1
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_6:
+    id: "item_6"
+    material: "AMETHYST_SHARD"
+    display-name: "&dAmethyst Shard"
+    lore:
+      - "&7Purple and beautiful"
+      - "&7Ideal for decoration"
+    chance: 75
+    min-amount: 2
+    max-amount: 6
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 25
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_7:
+    id: "item_7"
+    material: "COPPER_INGOT"
+    display-name: "&6Copper Bar"
+    lore:
+      - "&7Reddish metal"
+      - "&7Building material"
+    chance: 85
+    min-amount: 4
+    max-amount: 10
+    price: 50
+    currency-type: "GOLD"
+    daily-limit: 30
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_8:
+    id: "item_8"
+    material: "LAPIS_LAZULI"
+    display-name: "&9Lapis Lazuli"
+    lore:
+      - "&7Blue and beautiful"
+      - "&7Used for enchanting"
+    chance: 70
+    min-amount: 3
+    max-amount: 8
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 20
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_9:
+    id: "item_9"
+    material: "REDSTONE"
+    display-name: "&cRedstone"
+    lore:
+      - "&7Red and shiny"
+      - "&7For redstone circuits"
+    chance: 80
+    min-amount: 5
+    max-amount: 15
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 40
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_10:
+    id: "item_10"
+    material: "GLOWSTONE_DUST"
+    display-name: "&eGlowstone Dust"
+    lore:
+      - "&7Bright and glowing"
+      - "&7For lighting"
+    chance: 65
+    min-amount: 2
+    max-amount: 6
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 25
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_11:
+    id: "item_11"
+    material: "ENDER_PEARL"
+    display-name: "&5Ender Pearl"
+    lore:
+      - "&7Purple and mysterious"
+      - "&7For teleportation"
+    chance: 50
+    min-amount: 1
+    max-amount: 3
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 8
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_12:
+    id: "item_12"
+    material: "BLAZE_ROD"
+    display-name: "&6Blaze Rod"
+    lore:
+      - "&7Hot and dangerous"
+      - "&7From the Nether"
+    chance: 40
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 5
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_13:
+    id: "item_13"
+    material: "DRAGON_BREATH"
+    display-name: "&5🐉 Dragon Breath"
+    lore:
+      - "&7Legendary and rare"
+      - "&7Very powerful"
+    chance: 15
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 1
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_14:
+    id: "item_14"
+    material: "HEART_OF_THE_SEA"
+    display-name: "&bHeart of the Sea"
+    lore:
+      - "&7Blue and mysterious"
+      - "&7Ocean treasure"
+    chance: 25
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 2
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_15:
+    id: "item_15"
+    material: "PRISMARINE_SHARD"
+    display-name: "&bPrismarine Shard"
+    lore:
+      - "&7Ocean crystal"
+      - "&7For ocean structures"
+    chance: 60
+    min-amount: 2
+    max-amount: 5
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 20
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_16:
+    id: "item_16"
+    material: "PHANTOM_MEMBRANE"
+    display-name: "&7Phantom Membrane"
+    lore:
+      - "&7From night creatures"
+      - "&7Used for repair"
+    chance: 45
+    min-amount: 1
+    max-amount: 3
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 10
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_17:
+    id: "item_17"
+    material: "SCULK_CATALYST"
+    display-name: "&8Sculk Catalyst"
+    lore:
+      - "&7Dark and mysterious"
+      - "&7From deep darkness"
+    chance: 35
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 3
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_18:
+    id: "item_18"
+    material: "ECHO_SHARD"
+    display-name: "&dEcho Shard"
+    lore:
+      - "&7Purple and echoing"
+      - "&7Very rare"
+    chance: 22
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 2
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_19:
+    id: "item_19"
+    material: "ANCIENT_DEBRIS"
+    display-name: "&8Ancient Debris"
+    lore:
+      - "&7From Nether depths"
+      - "&7For Netherite crafting"
+    chance: 28
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 2
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_20:
+    id: "item_20"
+    material: "CRYING_OBSIDIAN"
+    display-name: "&5Crying Obsidian"
+    lore:
+      - "&7Purple and crying"
+      - "&7For Nether portal"
+    chance: 55
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 8
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_21:
+    id: "item_21"
+    material: "WARPED_FUNGUS"
+    display-name: "&5Warped Fungus"
+    lore:
+      - "&7Purple and strange"
+      - "&7From the Nether"
+    chance: 70
+    min-amount: 2
+    max-amount: 5
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 30
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: []
+    event: ""
+
+  # Special Event Items
+  item_christmas:
+    id: "item_christmas"
+    material: "REDSTONE_BLOCK"
+    display-name: "&c&l🎄 Christmas Gift"
+    lore:
+      - "&7Only in December"
+      - "&7Special event item"
+    chance: 50
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 5
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: [12]
+    event: "christmas"
+
+  item_halloween:
+    id: "item_halloween"
+    material: "JACK_O_LANTERN"
+    display-name: "&6&l🎃 Pumpkin"
+    lore:
+      - "&7Only in October"
+      - "&7Special event item"
+    chance: 50
+    min-amount: 1
+    max-amount: 2
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 5
+    enchantments: []
+    available-hours: []
+    available-days: []
+    available-months: [10]
+    event: "halloween"
+
+  item_night:
+    id: "item_night"
+    material: "DARK_OAK_LEAVES"
+    display-name: "&9🌙 Night Treasure"
+    lore:
+      - "&7Only at night"
+      - "&7Time-based item"
+    chance: 40
+    min-amount: 1
+    max-amount: 1
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 3
+    enchantments: []
+    available-hours: [20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+    available-days: []
+    available-months: []
+    event: ""
+
+  item_weekend:
+    id: "item_weekend"
+    material: "CAKE"
+    display-name: "&d🎂 Weekend Cake"
+    lore:
+      - "&7Only Saturday and Sunday"
+      - "&7Weekend special item"
+    chance: 60
+    min-amount: 1
+    max-amount: 3
+    price: 50
+    currency-type: "VAULT"
+    daily-limit: 10
+    enchantments: []
+    available-hours: []
+    available-days: [6, 7]
+    available-months: []
+    event: ""

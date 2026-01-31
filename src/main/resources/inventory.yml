@@ -1,0 +1,83 @@
+# FluxTrader - GUI Envanteri Konfigürasyonu
+# Basit 3 ürün düzeni: Tüccar, Kapat, Sonraki Yenilenme ve Profil butonları
+
+inventory:
+  title: "&6Tüccar"
+  size: 27  # 27 = 3 satır (9x3)
+  type: "CHEST"
+
+# GUI Mesajları
+messages:
+  refresh-indicator-name: "&6⏱ sonraki yenilenme"
+  refresh-indicator-time: "&7kalan sure: &e%time%"
+  refresh-indicator-items: "&7toplam urun: &e%items%"
+  profile-button-name: "&6👤 profil"
+  profile-button-lore: "&7profilini goruntuele"
+  close-button-name: "&c✕ kapat"
+  close-button-lore: "&7envanteri kapat"
+  item-price: "&6💰 fiyat: &e%price% %currency%"
+  item-amount: "&6📦 miktar: &e%min%-%max%"
+  item-chance: "&6🎲 sans: &e%chance%"
+  item-daily-limit: "&6📊 gunluk limit: &e%remaining%/%total%"
+
+# Arka Plan Öğeleri (boş slotları doldur)
+background:
+  enabled: true
+  material: "GRAY_STAINED_GLASS_PANE"
+  display-name: " "
+  slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 17, 19, 20, 21, 23, 24, 25]
+
+# Ürün Slotları (sadece 3 ürün)
+items:
+  slot_11:
+    row: 1
+    column: 2
+    item-id: "item_1"
+  
+  slot_12:
+    row: 1
+    column: 3
+    item-id: "item_2"
+  
+  slot_14:
+    row: 1
+    column: 5
+    item-id: "item_3"
+
+# Bilgi Paneli (alt satır)
+info-panel:
+  enabled: true
+  
+  # Sonraki Yenilenme Göstergesi
+  refresh-indicator:
+    slot: 18
+    material: "CLOCK"
+    display-name: "&6⏱ sonraki yenilenme"
+    lore:
+      - "&7kalan sure: &e%time%"
+      - "&7toplam urun: &e%items%"
+  
+  # Profil Butonu
+  profile-button:
+    slot: 22
+    material: "PLAYER_HEAD"
+    display-name: "&6👤 profil"
+    lore:
+      - "&7profilini goruntuele"
+    profile-description:
+      - "&6&l━━━━━━━━━━━━━━━━━━━━━━"
+      - "&6👤 profilin"
+      - "&6&l━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7para: &evault &7→ &e%vault%"
+      - "&7altin: &egold &7→ &e%gold%"
+      - "&7elmas: &ediamond &7→ &e%diamond%"
+      - "&7zumrut: &emerald &7→ &e%emerald%"
+      - "&6&l━━━━━━━━━━━━━━━━━━━━━━"
+  
+  # Kapat Butonu
+  close-button:
+    slot: 26
+    material: "BARRIER"
+    display-name: "&c✕ kapat"
+    lore:
+      - "&7envanteri kapat"

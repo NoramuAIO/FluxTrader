@@ -1,0 +1,33 @@
+# FluxTrader - Ana Konfigürasyon
+
+# Yenilenme Ayarları
+refresh:
+  # Yenilenme modu: false = sabit aralık, true = belirli saatler
+  by-hours: false
+  
+  # Sabit aralık modu (saat cinsinden)
+  interval-hours: 12
+  
+  # Belirli saatler (by-hours: true olmalı)
+  # Örnek: [6, 12, 18, 0] = 06:00, 12:00, 18:00, 00:00
+  hours: []
+
+# Zaman Bazlı Ürünler Konfigürasyonu
+time-based-items:
+  enabled: true
+  refresh-interval: 0
+  seasonal-months: []
+  weekly-days: []
+  daily-hours: []
+
+# Duyuru Sistemi
+announcements:
+  # Duyuruları etkinleştir
+  enabled: true
+  
+  # Yenilenmeye kalan dakikalarda gösterilecek countdown duyurusu
+  # reminder-minutes'ta belirtilen zamanlar geldiğinde bu duyuru gösterilir
+  reminder-minutes: [30, 15, 10, 5, 1, 0]
+  
+  # Duyuruyu tüm sunucuya yayınla (true) veya sadece çevrede (false)
+  broadcast: true
